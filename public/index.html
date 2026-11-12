@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Salesforce</title>
+</head>
+<body>
+<script>
+  const salesforceUrl =
+    "https://unloqglobal--unloqhubb.sandbox.my.salesforce.com/lightning/page/home";
+
+  window.addEventListener("DOMContentLoaded", () => {
+    window.open(salesforceUrl, "_blank", "noopener,noreferrer");
+
+    // 尝试关闭留在飞书中的空白中间页
+    setTimeout(() => window.close(), 800);
+  });
+</script>
+</body>
+</html>
