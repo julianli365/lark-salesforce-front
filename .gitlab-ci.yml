@@ -1,9 +1,0 @@
-pages:
-  stage: deploy
-  script:
-    - echo "Publishing Salesforce launcher"
-  artifacts:
-    paths:
-      - public
-  only:
-    - master
